@@ -1,19 +1,36 @@
 body {
   background: #fff;
+  font-family: Advent Pro;
 }
 
 h1 {
-  color: #d1b4d7;
+  color: #EC3DB2;
+  font-size: 4em
 }
 
 h3 {
-  color: #d1b4d7;
+  /* color: #d1b4d7; */
+  color: #EC3DB2;
   margin-top: -7px;
-  font-size: 16px;
+  font-size: 2em;
 }
 
 .header {
   text-align: center;
+  background-image: url(https://uniim1.shutterfly.com/ng/services/mediarender/THISLIFE/010007560109/media/62853955528/medium/1492282729/enhance);
+}
+
+.proj-banner {
+  background-color: #EC3DB2;
+  opacity: 0.85;
+  color: #fff;
+  text-align: center;
+}
+
+.footer{
+  background-color: #EC3DB2;
+  opacity: 0.85;
+  color: #fff;
 }
 
 .profile {
@@ -23,12 +40,22 @@ h3 {
   margin-right: 25px;
 }
 
+.spacer {
+  height: 25px;
+}
+
+.nav {
+  color: #3D66EC;
+  font-size: 2em;
+}
+
 .nav.navbar-nav {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
   margin-bottom: 75px;
 }
+
 @media (min-width: 768px) {
 	.navbar-nav {
 		float: none;
