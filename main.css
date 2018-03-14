@@ -1,6 +1,7 @@
 body {
   background: #fff;
   font-family: Advent Pro;
+  font-size: 16px;
 }
 
 h1 {
@@ -15,12 +16,30 @@ h3 {
   font-size: 2em;
 }
 
+button {
+  border-radius: 8px;
+  color: #EC3DB2;
+}
+
+.skills li {
+  padding: 3px;
+  margin-top: 5px;
+  display: inline;
+  list-style-type: none;
+  background-color: #EC3DB2;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  margin: 10px;
+  border-radius: 8px;
+}
+
 .header {
   text-align: center;
   background-image: url(https://uniim1.shutterfly.com/ng/services/mediarender/THISLIFE/010007560109/media/62853955528/medium/1492282729/enhance);
 }
 
-.proj-banner {
+.banner {
   background-color: #EC3DB2;
   opacity: 0.85;
   color: #fff;
@@ -54,6 +73,18 @@ h3 {
 	justify-content: center;
 	flex-wrap: wrap;
   margin-bottom: 75px;
+}
+
+.proj {
+  height: 250px;
+  width: 250px;
+}
+
+.projL {
+  height: 250px;
+  width: 250px;
+  float: right;
+  margin-left: 25px;
 }
 
 @media (min-width: 768px) {

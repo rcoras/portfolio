@@ -19,10 +19,10 @@
             <div class="spacer"></div>
             <ul class="nav navbar-nav">
               <li><a href="#about">About Me</a></li>
-              <li><a href="#">Skills</a></li>
-              <li><a href="#">Resume</a></li>
+              <li><a href="https://s3.amazonaws.com/wdione/ResumeFinal.pdf" target="_blank">Resume</a></li>
               <li><a href="#projects">Projects</a></li>
-              <li><a href="#">Contact Me</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#contact">Contact Me</a></li>
             </ul>
           </div>
       </div>
@@ -50,25 +50,71 @@
         <div class="col-xs-8">
             <a name="about"></a>
             <img class="img-responsive img-rounded profile" src="./images/beccabuilder.jpg" alt=Rebecca />
-          <!-- <h2>Becca the Builder</h2> -->
-          <!-- <h3>Front-end, Back-end, and More</h3> -->
           <h3><br>Former marketer turned web developer.</h3>
 
-          <p>As a marketer I was able to work with HTML, CSS, and a variety of CMS platforms. These technical aspects of my positions were always the most exciting to me. After struggling to find a home in marekting where I could flex my technical skills I decided to focus on the work I truly love. I enrolled in a immersive web development course at General Assembly. I've gained experience in a variety of coding languages and great exposure working on projects, both individually and on a team. I'm now looking forward to taking these skills and contributing to a team as I learn and grow with an organization.
-            <br><br><br><br>
+          <p>As a marketer I was able to work with HTML, CSS, and a variety of CMS platforms. The technical aspects of my positions were always the most exciting to me. After struggling to find a home in marekting where I could flex my technical skills I decided to focus on the work I truly love. I enrolled in an immersive web development course at General Assembly. I've gained experience in a variety of coding languages and great exposure working on projects, both individually and on a team. I'm now looking forward to taking these skills and contributing to a team as I learn and grow with an organization.
+            <br><br>
+           <a href="https://s3.amazonaws.com/wdione/ResumeFinal.pdf" target="_blank"><button>View my Resume</button></a>
         </div>
       <div class="col-xs-2">
       </div>
       </div>
       <div class="spacer"></div>
       <div class="spacer"></div>
-      <div class="row proj-banner">
+      <div class="row banner">
         <div class="col-xs-12">
+          <a name="projects"></a>
           <h2>My Projects</h2>
         </div>
-        </div>
+      </div>
         <div class="spacer"></div>
         <div class="spacer"></div>
+        <div class="row Projects">
+          <a name="lib-proj"></a>
+            <div class="col-xs-2">
+            </div>
+            <div class="col-xs-5">
+              <h3>Library Project</h3>
+              <p>
+                I knew I wanted to challenge myself on my final project at GA. I decided to do this by implementing a front-end framework. I build out a library application where users create lists of books that they've read. I knew implementing Ember would be a challenge but I've learned throughout GA that pushing myself through code was one of the best ways to learn. I think Ember was a great addition to my project and I look forward to learning more front-end frameworks in the future. I built the back-end with Ruby on Rails and a pSQL database. The backend is built to allow me to expand on the project which I look forward to doing.
+              </p>
+              <p>You can see the live version of my project <a href="https://rcoras.github.io/library-project/" target="_blank">here</a><br>
+                Or take a look at my GitHub repo <a href="https://github.com/rcoras/library-project" target="_blank">here</a>
+              </p>
+            </div>
+            <div class="col-xs-3">
+              <div class="spacer"></div>
+              <a href="https://rcoras.github.io/library-project/" target="_blank"><img class="img-responsive img-rounded projL" src="https://i.imgur.com/0ERYuXl.png" alt="library" /></a>
+            </div>
+          <div class="col-xs-2">
+          </div>
+          </div>
+          <div class="spacer"></div>
+          <div class="spacer"></div>
+          <div class="row Projects">
+            <a name="surv-proj"></a>
+              <div class="col-xs-2">
+              </div>
+              <div class="col-xs-3">
+                <a href="Projects"></a>
+                <div class="spacer"></div>
+                <div class="spacer"></div>
+                <div class="spacer"></div>
+                <a href="https://curlpower.github.io/curlpower/" target="_blank"><img class="img-responsive img-rounded proj" src="https://i.imgur.com/1ZSJ36W.png" alt="survey" /></a>
+              </div>
+              <div class="col-xs-5">
+                <h3><br>Survey Creator</h3>
+                <p>
+                  My first team project was building out an app that allows users to create true/false surveys and allows uers to take a survey one time. The survey creator can see the results of thier surveys on the home screen. This was a great experience working with a team. My two teammates and I did an excellent job planning and working together to solve issues. The project was built with a similar front-end, although one technology I really enjoyed learnring about an implementing was handlebars.js. We used handlebars to dynamically add content to the page, and this allowed us to add buttons to each survey while retaing the survey id we needed for some of our functions. This was another full-stack application, this time we used Express to build out the API with a MongoDB database.
+                </p>
+                <p>You can see the live version of my app <a href="https://curlpower.github.io/curlpower/" target="_blank">here</a><br>
+                  Or take a look at my GitHub repo <a href="https://github.com/curlpower/curlpower" target="_blank">here</a>
+                </p>
+              </div>
+            <div class="col-xs-2">
+            </div>
+            </div>
+          <div class="spacer"></div>
       <div class="row Projects">
         <a name="tictac-proj"></a>
           <div class="col-xs-2">
@@ -83,25 +129,22 @@
             </p>
           </div>
           <div class="col-xs-3">
-            <a href="Projects"></a>
-            <a href="https://rcoras.github.io/tic-tac-toe" target="_blank"><img class="img-responsive img-rounded" src="./images/tictactoe.jpg" alt="ticky" /></a>
+            <div class="spacer"></div>
+            <div class="spacer"></div>
+            <!-- <a href="#projects"></a> -->
+            <a href="https://rcoras.github.io/tic-tac-toe" target="_blank"><img class="img-responsive img-rounded proj" src="./images/tictactoe.jpg" alt="ticky" /></a>
           </div>
-          <!-- <div class="col-xs-5">
-            <p>
-              The first project I tackled at GA was a tic-tac-toe game. With just a few weeks of formal learning under my belt, I'm proud to say I succeed with the project and met requirements on my first submission. For me the big focus was using Javascript to build out the front-end including the game logic. I also used HTML and CSS to build and style the page and JQuery to manipulate the page after actions were taken. I used JSON and AJAX to make calls the the API. Although I was overwhelmed to start the project, I found myself learning a lot throughout the way and enjoyed the challenges. One of the most valuable things I learned during this project was to break up a larger problem into many smaller problems and tackle them indivdually.
-            </p>
-          </div> -->
         <div class="col-xs-2">
         </div>
         </div>
         <div class="spacer"></div>
         <div class="row Projects">
-          <a name="fishing-proj"></a>
             <div class="col-xs-2">
             </div>
             <div class="col-xs-3">
-              <a href="Projects"></a>
-              <a href="https://rcoras.github.io/fishing_log_client/" target="_blank"><img class="img-responsive img-rounded" src="./images/tictactoe.jpg" alt="fishing" /></a>
+              <div class="spacer"></div>
+              <div class="spacer"></div>
+              <a href="https://rcoras.github.io/fishing_log_client/" target="_blank"><img class="img-responsive img-rounded proj" src="https://i.imgur.com/71ULzOX.png" alt="fishing" /></a>
             </div>
             <div class="col-xs-5">
               <h3><br>Fishing Tracker</h3>
@@ -116,29 +159,44 @@
           </div>
           </div>
           <div class="spacer"></div>
-        <div class="row Projects">
-          <a name="surv-proj"></a>
+          <div class="spacer"></div>
+          <div class="row banner">
+            <div class="col-xs-12">
+              <a name="skills"></a>
+              <h2>My Skills</h2>
+            </div>
+            </div>
+            <div class="spacer"></div>
+            <div class="spacer"></div>
+          <div class="row skills">
             <div class="col-xs-2">
+              </div>
+              <div class="col-xs-8">
+                <ul>
+                  <li>Ember</li>
+                  <li>JavaScript</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>SCSS</li>
+                  <li>JQUERY</li>
+                  <li>AJAX</li>
+                  <li>Handlebars</li>
+                  <li>Ruby on Rails</li>
+                  <li>Express</li>
+                  <li>MongoDB</li>
+                  <li>pSQL</li>
+                  <li>Wordpress</li>
+                  <li>Drupal</li>
+                  <li>Wix</li>
+                </ul>
+              </div>
+              <div class="col-xs-2">
+              </div>
             </div>
-            <div class="col-xs-5">
-              <h3><br>Survey Creator</h3>
-              <p>
-                My first team project was building out an app that allows users to create true/false surveys and allows uers to take a survey one time. The survey creator can see the results of thier surveys on the home screen. This was a great experience working with a team. My two teammates and I did an excellent job planning and working together to solve issues. The project was built with a similar front-end, although one technology I really enjoyed learnring about an implementing was handlebars.js. We used handlebars to dynamically add content to the page, and this allowed us to add buttons to each survey while retaing the survey id we needed for some of our functions. This was another full-stack application, this time we used Express to build out the API with a MongoDB database.
-              </p>
-              <p>You can see the live version of my app <a href="https://curlpower.github.io/curlpower/" target="_blank">here</a><br>
-                Or take a look at my GitHub repo <a href="https://github.com/curlpower/curlpower" target="_blank">here</a>
-              </p>
-            </div>
-            <div class="col-xs-3">
-              <a href="Projects"></a>
-              <a href="https://rcoras.github.io/tic-tac-toe" target="_blank"><img class="img-responsive img-rounded" src="./images/tictactoe.jpg" alt="ticky" /></a>
-            </div>
-          <div class="col-xs-2">
-          </div>
-          </div>
         <div class="spacer"></div>
         <div class="spacer"></div>
       <div class="footer">
+        <a name="contact"></a>
         <div class="row">
           <div class="col-xs-1">
           </div>
