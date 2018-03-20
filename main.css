@@ -1,6 +1,6 @@
 body {
   background: #fff;
-  font-family: Advent Pro;
+  font-family: Verdana;
   font-size: 16px;
 }
 
@@ -25,9 +25,9 @@ p > a {
   color: blue;
 }
 
-.skills li {
-  padding: 5px;
-  display: block;
+.skilly li {
+  padding: 5px 10px;
+  display: inline-block;
   list-style-type: none;
   background-color: #EC3DB2;
   font-size: 24px;
@@ -39,7 +39,7 @@ p > a {
 
 .header {
   text-align: center;
-  background-image: url(https://uniim1.shutterfly.com/ng/services/mediarender/THISLIFE/010007560109/media/62853955528/medium/1492282729/enhance);
+  background-image: url(https://i.imgur.com/bpm8XKg.jpg);
 }
 
 .banner {
@@ -67,31 +67,62 @@ p > a {
 }
 
 .nav {
-  color: #3D66EC;
+  /* color: #3D66EC; */
+  color: #4842f4;
   font-size: 2em;
 }
 
 .nav.navbar-nav {
 	display: flex;
+  top: 0;
 	justify-content: center;
 	flex-wrap: wrap;
   margin-bottom: 75px;
+  position: fixed;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  z-index: 1;
+  background-image: url(https://uniim1.shutterfly.com/ng/services/mediarender/THISLIFE/010007560109/media/62853955528/medium/1492282729/enhance);
 }
 
 .proj {
   height: 250px;
   width: 250px;
 }
-
+/*
 .projL {
   height: 250px;
   width: 250px;
   float: right;
   margin-left: 25px;
-}
+} */
 
 @media (min-width: 768px) {
 	.navbar-nav {
 		float: none;
 	}
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
