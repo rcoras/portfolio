@@ -15,7 +15,7 @@
       <div class="row header">
           <div class="row col-xs-12">
             <div class="spacer"></div>
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav" data-toggle="colapse">
               <li><a href="#about">About Me</a></li>
               <!-- <div class="tooltip"><span class="tooltiptext">Opens PDF in New Tab</span></div> -->
               <li><a href="https://s3.amazonaws.com/wdione/Rcoras_Resume.pdf" target="_blank">Resume</a></li>
@@ -40,11 +40,12 @@
         <div class="col-xs-8">
             <a name="about"></a>
             <img class="img-responsive img-rounded profile" src="./images/beccabuilder.jpg" alt=Rebecca />
-          <h3><br>Former marketer turned web developer.</h3>
+          <h3>Former marketer turned web developer</h3>
 
           <p>As a marketer I was able to work with HTML, CSS, and a variety of CMS platforms. The technical aspects of my positions were always the most exciting to me. Although I enjoyed creating successuful marketing campaigns I decided to focus on the work I truly love. I enrolled in an immersive web development course at General Assembly. I've gained experience in a variety of coding languages and great exposure working on projects, both individually and on a team. I'm now looking forward to taking these skills and contributing to a team as I learn and grow with an organization.
             <br><br>
            <a href="https://s3.amazonaws.com/wdione/Rcoras_Resume.pdf" target="_blank"><button>View my Resume</button></a>
+         </p>
         </div>
       <div class="col-xs-2">
       </div>
@@ -63,37 +64,34 @@
           <a name="lib-proj"></a>
             <div class="col-xs-2">
             </div>
-            <div class="col-xs-5">
+            <div class="col-xs-8">
+              <div class="spacer"></div>
+                <a href="https://rcoras.github.io/library-project/" target="_blank"><img class="img-responsive img-rounded proj-left" src="https://i.imgur.com/0ERYuXl.png" alt="library" /></a>
               <h3>Library Project</h3>
               <p>
-                I knew I wanted to challenge myself on my final project at GA. I decided to do this by implementing a front-end framework. I build out a library application where users create lists of books that they've read. I knew implementing Ember would be a challenge but I've learned throughout GA that pushing myself through code was one of the best ways to learn. I think Ember was a great addition to my project and I look forward to learning more front-end frameworks in the future. I built the back-end with Ruby on Rails and a pSQL database. The backend is built to allow me to expand on the project which I look forward to doing.
+                I knew I wanted to challenge myself on my final project at GA. I decided to do this by implementing a front-end framework. I build out a library application where users can create a list of books that they've read. I knew implementing Ember would be a challenge but I've learned throughout GA that pushing myself through code was one of the best ways to learn. I think Ember was a great addition to my project and I look forward to learning more front-end frameworks in the future. I built the back-end with Ruby on Rails and a pSQL database. The backend is built to allow me to expand on the project which I look forward to doing.
               </p>
               <p>You can see the live version of my project <a href="https://rcoras.github.io/library-project/" target="_blank">here</a><br>
                 Or take a look at my GitHub repo <a href="https://github.com/rcoras/library-project" target="_blank">here</a>
               </p>
-            </div>
-            <div class="col-xs-3">
-              <div class="spacer"></div>
-              <a href="https://rcoras.github.io/library-project/" target="_blank"><img class="img-responsive img-rounded projL" src="https://i.imgur.com/0ERYuXl.png" alt="library" /></a>
+            <!-- </div> -->
+            <!-- <div class="col-xs-3"> -->
+              <!-- <div class="spacer"></div> -->
+              <!-- <a href="https://rcoras.github.io/library-project/" target="_blank"><img class="img-responsive img-rounded proj-lib" src="https://i.imgur.com/0ERYuXl.png" alt="library" /></a> -->
             </div>
           <div class="col-xs-2">
           </div>
           </div>
           <div class="spacer"></div>
           <div class="spacer"></div>
+          <div class="spacer"></div>
           <div class="row Projects">
-            <a name="surv-proj"></a>
               <div class="col-xs-2">
               </div>
-              <div class="col-xs-3">
-                <a href="Projects"></a>
-                <div class="spacer"></div>
-                <div class="spacer"></div>
-                <div class="spacer"></div>
-                <a href="https://curlpower.github.io/curlpower/" target="_blank"><img class="img-responsive img-rounded proj" src="https://i.imgur.com/1ZSJ36W.png" alt="survey" /></a>
-              </div>
-              <div class="col-xs-5">
-                <h3><br>Survey Creator</h3>
+              <div class="col-xs-8">
+                <a href="https://curlpower.github.io/curlpower/" target="_blank"><img class="img-responsive img-rounded proj-r" src="https://i.imgur.com/1ZSJ36W.png" alt="survey" /></a>
+              <!-- <div class="col-xs-5"> -->
+                <h3>Survey Creator</h3>
                 <p>
                   My first team project was building out an app that allows users to create true/false surveys and allows uers to take a survey one time. The survey creator can see the results of thier surveys on the home screen. This was a great experience working with a team. My two teammates and I did an excellent job planning and working together to solve issues. The project was built with a similar front-end, although one technology I really enjoyed learnring about an implementing was handlebars.js. We used handlebars to dynamically add content to the page, and this allowed us to add buttons to each survey while retaing the survey id we needed for some of our functions. This was another full-stack application, this time we used Express to build out the API with a MongoDB database.
                 </p>
@@ -105,11 +103,14 @@
             </div>
             </div>
           <div class="spacer"></div>
+          <div class="spacer"></div>
+
       <div class="row Projects">
-        <a name="tictac-proj"></a>
           <div class="col-xs-2">
           </div>
-          <div class="col-xs-5">
+          <div class="col-xs-8">
+            <a href="https://rcoras.github.io/tic-tac-toe" target="_blank"><img class="img-responsive img-rounded proj-left" src="./images/tictactoe.jpg" alt="ticky" /></a>
+
             <h3>Tic-Tac-Toe</h3>
             <p>
               The first project I tackled at GA was a tic-tac-toe game. With just a few weeks of formal learning under my belt, I'm proud to say I succeed with the project and met requirements on my first submission. For me the big focus was using Javascript to build out the front-end including the game logic. I also used HTML and CSS to build and style the page and JQuery to manipulate the page after actions were taken. I used JSON and AJAX to make calls the the API. Although I was overwhelmed to start the project, I found myself learning a lot throughout the way and enjoyed the challenges. One of the most valuable things I learned during this project was to break up a larger problem into many smaller problems and tackle them indivdually.
@@ -117,27 +118,28 @@
             <p>You can see the live version of my game <a href="https://rcoras.github.io/tic-tac-toe" target="_blank">here</a><br>
               Or take a look at my GitHub repo <a href="https://github.com/rcoras/tic-tac-toe" target="_blank">here</a>
             </p>
-          </div>
-          <div class="col-xs-3">
+          <!-- </div> -->
+          <!-- <div class="col-xs-3">
             <div class="spacer"></div>
-            <div class="spacer"></div>
+            <div class="spacer"></div> -->
             <!-- <a href="#projects"></a> -->
-            <a href="https://rcoras.github.io/tic-tac-toe" target="_blank"><img class="img-responsive img-rounded proj" src="./images/tictactoe.jpg" alt="ticky" /></a>
+            <!-- <a href="https://rcoras.github.io/tic-tac-toe" target="_blank"><img class="img-responsive img-rounded tictac" src="./images/tictactoe.jpg" alt="ticky" /></a> -->
           </div>
         <div class="col-xs-2">
         </div>
         </div>
         <div class="spacer"></div>
+        <div class="spacer"></div>
         <div class="row Projects">
             <div class="col-xs-2">
             </div>
-            <div class="col-xs-3">
-              <div class="spacer"></div>
-              <div class="spacer"></div>
-              <a href="https://rcoras.github.io/fishing_log_client/" target="_blank"><img class="img-responsive img-rounded proj" src="https://i.imgur.com/Z1raC2l.png" alt="fishing" /></a>
-            </div>
-            <div class="col-xs-5">
-              <h3><br>Fishing Tracker</h3>
+            <div class="col-xs-8">
+              <!-- <div class="spacer"></div>
+              <div class="spacer"></div> -->
+              <a href="https://rcoras.github.io/fishing_log_client/" target="_blank"><img class="img-responsive img-rounded proj-r" src="https://i.imgur.com/Z1raC2l.png" alt="fishing" /></a>
+            <!-- </div>
+            <div class="col-xs-5"> -->
+              <h3>Fishing Tracker</h3>
               <p>
                 My first full-stack project was a fishing tracker app. I decided to build out something that is relevant to me, because I love fishing and really enjoy diving into data and using my findings to inform future decisions an app to track my trips made a lot of sense. Similar to my tic-tac-toe game, I built this site with HTML, CSS, Javascript, JQUERY, JSON and AJAX. The added step here was that the API I'm storing data in, is one I built using Ruby on Rails and a pSQL database.
               </p>
