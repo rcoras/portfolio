@@ -78,13 +78,6 @@ p > a {
   margin-right: 25px;
 }
 
-/* .tictac {
-  height: 250px;
-  width: 250px;
-  float: right;
-  margin-left: 30px;
-} */
-
 .spacer {
   height: 25px;
 }
@@ -93,6 +86,10 @@ p > a {
   /* color: #3D66EC; */
   color: #4842f4;
   font-size: 2em;
+}
+
+.colapse {
+  display: none !important;
 }
 
 .nav.navbar-nav {
@@ -109,18 +106,6 @@ p > a {
   z-index: 1;
   background-image: url(https://uniim1.shutterfly.com/ng/services/mediarender/THISLIFE/010007560109/media/62853955528/medium/1492282729/enhance);
 }
-
-.proj {
-  height: 250px;
-  width: 250px;
-}
-/*
-.projL {
-  height: 250px;
-  width: 250px;
-  float: right;
-  margin-left: 25px;
-} */
 
 @media (min-width: 768px) {
 	.navbar-nav {
